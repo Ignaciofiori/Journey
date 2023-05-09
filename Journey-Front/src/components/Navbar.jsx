@@ -1,5 +1,5 @@
 import Logo from "./Logo"
-
+import SearchIndex from "./IndexSearch"
 {//ESTE ES EL BUGUER MENU (ICONO)
   /* <div class="burger-menu">
         <i class="fas fa-bars"></i>
@@ -10,26 +10,22 @@ function Navbar() {
  
   
     return (
-    
-    <nav className="navbar" >
-       
-       <Logo />
-      
-        <div className="contenedorNavbar">
+    <header>
+      <nav className="navbar" >
+              <div className="contenedorLogoNavbar">
+       <Logo />  
           <ul>
             <li><a href="#">Inicio</a></li>
             <li><a href="#">Login</a></li>
             <li><a href="#">Registrarse</a></li>
             <li><a href="#">About Us</a></li>
           </ul>
-          
-        </div>
-        <a href="#" id="menu_on">
-	        <span></span>
-	        <span></span>
-	        <span></span>
-        </a>
-    </nav>
+                </div>
+       <SearchIndex/>
+      </nav>
+    </header>
+   
+  
    
         
     )
