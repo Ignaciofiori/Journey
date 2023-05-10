@@ -1,14 +1,16 @@
 *{
   box-sizing: border-box;
+  font-family: "Roboto";
 }
+
+/* //HEADER */
 .navbar{
-  position:fixed;
- background-color:transparent;
+  position:absolute;
+ background-color:black;
  backdrop-filter: blur(30px);
  padding: 20px;
  width: 100%;
-  z-index: 1;
-
+margin: 0px;
   
 }
 .contenedorLogoNavbar{
@@ -29,16 +31,6 @@
   text-decoration: none;
 
 }
-
-
-
-body {
-  background-image: url("./public/imgs/home.imagen.jpeg");
-  background-size: cover;
-  height: 100vh;
-  background-position: center;
-}
-
 .logo img {
   height: 8vh; 
   padding: 10px;
@@ -58,3 +50,21 @@ body {
   text-indent: 4px;
 
 }
+
+
+/* BANNER */
+
+.banner {
+  display:flex;
+  justify-content: center;
+  background-image: url("./public/imgs/banner1.jpeg")  ;
+  min-height:75vh;
+align-items:center;
+}
+
+.banner h1{
+  z-index: 3;
+  color: aliceblue;
+
+}
+

@@ -15,7 +15,7 @@ function Navbar() {
               <div className="contenedorLogoNavbar">
        <Logo />  
           <ul>
-            <li><a href="#">Inicio</a></li>
+            <li><a href="/">Inicio</a></li>
             <li><a href="#">Login</a></li>
             <li><a href="#">Registrarse</a></li>
             <li><a href="#">About Us</a></li>
