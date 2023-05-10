@@ -7,11 +7,17 @@ function App() {
 
   return (
     <div> 
+
      <Navbar/>
+     
      <main>
       <Banner/>
-     
+     <div>
+      <h2></h2>
+     </div>
      </main>
+     
+     
      </div>
       
   )
