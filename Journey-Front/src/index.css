@@ -81,3 +81,37 @@ display: flex;
   position: relative;
 left: 35rem;
 }
+
+/*FOOTER */
+
+footer {
+  background-color:grey;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+  flex-direction: row;
+}
+
+footer div {
+  display: flex;
+  flex-direction: COLUMN;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 33%;
+  color: aliceblue;
+}
+
+.redes {
+  flex-direction: row;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.redes a {
+  padding: 5px;
+}
