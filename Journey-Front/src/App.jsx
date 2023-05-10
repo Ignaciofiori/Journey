@@ -12,8 +12,8 @@ function App() {
      
      <main>
       <Banner/>
-     <div>
-      <h2></h2>
+     <div className='contenedorListadoSale'>
+      <h2>Autos de la semana:</h2>
      </div>
      </main>
      

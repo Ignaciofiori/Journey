@@ -70,3 +70,14 @@ align-items:center;
 
 }
 
+/* SALE PRODUCTOS */
+.contenedorListadoSale{
+background-color: white;
+height: 30rem;
+display: flex;
+}
+
+.listadoSale h2{
+  position: relative;
+left: 35rem;
+}
