@@ -1,5 +1,10 @@
 import Logo from "./Logo"
 import SearchIndex from "./IndexSearch"
+import Prueba from "./Prueba"
+import ContentWrapper from "./ContentWraper"
+import Footer from "./Footer"
+import Login from "./Login"
+import { Link,Switch,Route } from "react-router-dom"
 {//ESTE ES EL BUGUER MENU (ICONO)
   /* <div class="burger-menu">
         <i class="fas fa-bars"></i>
@@ -10,24 +15,32 @@ function Navbar() {
  
   
     return (
+      <div>
     <header>
       <nav className="navbar" >
               <div className="contenedorLogoNavbar">
        <Logo />  
           <ul>
-            <li><a href="/">Inicio</a></li>
-            <li><a href="#">Login</a></li>
+            <li><Link to="/">Inicio</Link></li>
+            <li><Link to="/users/login">Login</Link></li>
             <li><a href="#">Registrarse</a></li>
             <li><a href="#">About Us</a></li>
           </ul>
                 </div>
        <SearchIndex/>
       </nav>
-    </header>
+      </header>
+    
+   <Route exact path="/">
+   <ContentWrapper/>
+   </Route> 
+    
+   <Route path="/users/login">
+   <Login/>
+   </Route> 
+   <Footer/>
+   </div>
    
-  
-   
-        
     )
   }
   

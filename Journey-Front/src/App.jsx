@@ -12,14 +12,7 @@ function App() {
 
      <Navbar/>
      
-     <main>
-      <Banner/>
-     <div className='contenedorListadoSale'>
-      <h2>Autos de la semana:</h2>
-     </div>
-     </main>
-     
-     <Footer/>
+  
      </div>
       
   )
