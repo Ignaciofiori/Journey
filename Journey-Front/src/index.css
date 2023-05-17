@@ -115,3 +115,37 @@ footer div {
 .redes a {
   padding: 5px;
 }
+
+
+/*INPUT DEL LOGIN*/
+
+.containerForm {
+  flex-direction: column;
+}
+
+.containerForm form {
+  display: flex;
+  flex-direction: column;
+} 
+
+.containerForm h3 {
+  margin-top: 10px;
+}
+
+.containerForm input{
+  margin: 5px;
+  border: none;
+  border-radius: 20px;
+  font-size: 0.2 em;
+  text-align: center;
+  padding: 5px;
+}
+
+.containerForm button{
+  margin: 5px;
+  border: none;
+  border-radius: 20px;
+  font-size: 0.2 em;
+  text-align: center;
+  padding: 5px;
+}
